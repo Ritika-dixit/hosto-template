@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header {
+	width: 100%;
+	position: sticky;
+	top: 0;
+	z-index: 50;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+	/*position: sticky;*/
+}
+.logo {
+	font-size: 20px; 
+	display: inline-block;
+}
+.nav_itms {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.nav_itms ul {
+	list-style-type: none;
+}
+.nav_itms ul li {
+	display: inline-block;
+	transition: 1s;
+	padding-top: 8px;
+}
+.nav_itms ul li:hover {
+	border-top: 2px solid cyan;
+}
+.nav_itms ul li a {
+text-decoration: none;
+color: black;
+padding: 10px;
+transition: 1s;
+}
+.nav_itms ul li a:hover{
+	color: cyan;
+}
+.image_cont{
+	background: gray;
+	padding: 100px 0;
+}
+.image_cont img {
+	width: 100%;
+	position: relative;
+	border-radius: 15px;
+}
+.image_cont {
+	position:relative;
+	text-align: center;
+}
+.image_cont h1 {
+	color: white;
+	font-size: 40px;
+	padding: 10px;
+}
+.image_cont h2 {
+	color: black;
+	font-size: 25px;
+}
+.image_cont p {
+	color: black;
+	font-size: 16;
+	margin-bottom: 30px;
+}	
+.box_block {
+	border: solid beige;
+	background: cyan;
+}
+.box_block p{
+	font-size: 14px;
+}
+.plans {
+	text-align: center;
+	/* margin: 20px; */
+}
+.plans h2 {
+	margin-top: 5px;
+}
+.plans .detail {
+	padding: 10px;
+}
+.third_block h4 {
+	background-color: cyan;
+	color: white;
+	padding: 10px;
+}
+.third_block h3 {
+	padding: 30px;
+	font-size: 28px;
+	color: black;
+	background-color: #dcdfe3;
+	font-size: 2.5em;
+}
+
+.third_block h3 sub {
+	font-size: 15px;
+	margin-left: -35px;
+}
+
+.third_block p {
+	margin: 5px;
+}
+.last_block h2{
+	text-align: center;
+	font-size: 40px;
+}
+.last_block h6{
+	text-align: center;
+	font-size: 20px;
+}
+/* .grid_div{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 25px;
+	margin-top: 25px;
+} */
+.grid_div .features{
+	display: flex;
+	position: relative;
+}
+.grid_div .features img{
+	width: 100px;
+margin-top: 70px;
+}
+.pricing_rs{
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	border: 2px solid black;
+	border-radius: 50%;
+	padding: 10px;
+	background-color: white;
+}
+.pricing_rs h5 {
+	color: maroon;
+}
+.img_fr {
+	margin: 30px;
+}
+.footer .info_tags{
+	/* display: grid;
+	grid-template-columns: auto auto auto auto auto; */
+	background-color: gray;
+	color: white;
+	grid-gap: 25px;
+	padding: 10px;
+}
+
+/* .icon {
+	display: flex;
+	justify-content: space-between;
+	float: right;
+	width: 15px;
+	height: 15px;
+} */
